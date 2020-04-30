@@ -22,10 +22,11 @@ class App extends React.Component {
       zoom: this.state.zoom
     });
   }
-  
+
   render() {
     return (
       <div className="App">
+      <div ref={el => this.mapContainer = el} className="mapContainer"/>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
