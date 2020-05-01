@@ -17,7 +17,7 @@ class App extends React.Component {
   componentDidMount() {
     const map = new mapboxgl.Map({
       container: this.mapContainer,
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/sraleroy/ck9ly7wfk11as1jqtc6iow364',
       center: [this.state.lng, this.state.lat],
       zoom: this.state.zoom
     });
@@ -27,7 +27,7 @@ class App extends React.Component {
     return (
       <div className="App">
       <div ref={el => this.mapContainer = el} className="mapContainer"/>
-        <header className="App-header">
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -40,7 +40,7 @@ class App extends React.Component {
           >
             Learn React
           </a>
-        </header>
+        </header> */}
       </div>
     );
   }
