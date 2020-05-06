@@ -1,6 +1,8 @@
 # runningmantrail
 Based on the popular TV show Running Man. Built on ReactJs and Mapbox.GL
 
+Map will have 2018-2020 data
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
