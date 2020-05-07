@@ -1,7 +1,7 @@
 # runningmantrail
 Based on the popular TV show Running Man. Built on ReactJs and Mapbox.GL
 
-Map will have 2018-2020 data
+Map will have 2018-2020 data with ability to filter by year, by month of TV Release, and by member, by guest, and by country, by province, by town
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

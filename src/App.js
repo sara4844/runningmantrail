@@ -35,8 +35,25 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className='sidebarStyle'>
-          <div>Longitude: {this.state.lng} | Latitude: {this.state.lat} | Zoom: {this.state.zoom}</div>
+          <h3>Running Man</h3>
+          <p>Running Man is an urban variety TV show. Use configurations below to filter Running Man's filmed locations</p>
+          <div className='sidebarFilters'>
+            <h4>Filter locations by: </h4>
+            <div><span>Year: <i>insert dropdown</i></span> <span>Month: <i>insert dropdown</i></span></div>
+            <br />
+            <div>Member: <i>insert dropdown</i></div>
+            <br />
+            <div>Guest: <i>insert dropdown</i></div>
+            <br />
+            <div><span>Country: <i>insert dropdown</i></span></div>
+            <br />
+            <div><span>Province: <i>insert dropdown</i></span></div>
+            <br />
+            <div><span>Town: <i>insert dropdown</i></span></div>
+          </div>
+          <br />
         </div>
+        <div className='sidebarBottomFixed'>Longitude: {this.state.lng} | Latitude: {this.state.lat} | Zoom: {this.state.zoom}</div>
         <div ref={el => this.mapContainer = el} className="mapContainer"/>
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
